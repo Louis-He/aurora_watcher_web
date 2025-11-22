@@ -1,5 +1,13 @@
-// @ts-check
 import { defineConfig } from 'astro/config';
 
-// https://astro.build/config
-export default defineConfig({});
+import tailwindcss from '@tailwindcss/vite';
+
+export default defineConfig({
+  site: 'https://louis_he.github.io/aurora_watcher_web',
+  base: '/',
+  integrations: [],
+
+  vite: {
+    plugins: [tailwindcss()],
+  },
+});

@@ -1,0 +1,23 @@
+---
+import "../styles/global.css";
+const { title = "Aurora Forecast App", description = "" } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/og-image.png" />
+  </head>
+
+  <body class="bg-black text-white">
+    <slot />
+  </body>
+</html>
