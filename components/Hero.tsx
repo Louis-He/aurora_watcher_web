@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
              {/* Back Phone (Forecast Screen) */}
              <div className="absolute top-0 lg:top-4 left-4 lg:left-12 transform scale-90 -rotate-6 opacity-60 hover:opacity-100 hover:rotate-0 hover:scale-95 hover:z-20 transition-all duration-500 z-0">
                 <img 
-                  src="/screenshot-map.png" 
+                  src="/screenshot-map-viewing.png" 
                   alt="Aurora Forecast Screenshot" 
                   className="w-[280px] h-auto rounded-[2.5rem] border-[8px] border-slate-900 shadow-2xl"
                 />

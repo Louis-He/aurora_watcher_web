@@ -25,7 +25,7 @@ const Features: React.FC = () => {
         </div>
 
         {/* Feature Tabs */}
-        <div className="grid grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4 mb-12 lg:mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 mb-12 lg:mb-16">
           {FEATURES.map((feature, idx) => {
             const isActive = activeIndex === idx;
             return (

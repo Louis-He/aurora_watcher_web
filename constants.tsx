@@ -7,7 +7,7 @@ export const APP_STORE_LINK = "#";
 export const FEATURES: Feature[] = [
   {
     title: "Real-Time Precision",
-    description: "Get accurate, city-level aurora visibility forecasts updated in real-time.",
+    description: "Get accurate, city-level aurora visibility updated in real-time.",
     icon: <Zap className="w-6 h-6 text-green-400" />
   },
   {
@@ -17,7 +17,7 @@ export const FEATURES: Feature[] = [
   },
   {
     title: "Interactive Maps",
-    description: "Explore light pollution overlays and live aurora probability heatmaps across Canada.",
+    description: "Explore light pollution and live aurora probability overlays across Canada.",
     icon: <Map className="w-6 h-6 text-blue-400" />
   },
   // {
